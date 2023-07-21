@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background: #1C1C1C;
+    margin: 30px;
+}
+
+#container {
+    background: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 28px;
+}
+
+#upper-container {
+    padding: 10px 50px;
+    background: #01497c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.conversion-container {
+    background: white;
+    width: 500px;
+    height: 85px;
+    margin-top: 28px;
+}
+
+#user-input {
+    width: 300px;;
+    height: 83px;
+    margin-bottom: 15px;
+    border: 2px solid #468faf;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    font-size: 58px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#convert-btn {
+    font-family: 'Inter', sans-serif;
+    padding: 8px 24px;
+    border: 1px solid white;
+    background: white;
+    color: #3D3D3D;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+
+.desc-container {
+    font-weight: 600;
+    color: #5A537B;
+}
+
+.text-conversion {
+    font-size: 14px;
+}
